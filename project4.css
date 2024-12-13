@@ -1,0 +1,235 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: rgb(248, 248, 248);
+}
+
+@font-face {
+  font-family: SFProRounded;
+  src: url("./SF Pro Rounded/SF-Pro-Rounded-Regular.otf");
+}
+
+@font-face {
+  font-family: SFProText;
+  src: url("./SF Pro Text/SF-Pro-Text-Regular.otf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: SFProRounded;
+}
+
+p {
+  font-family: SFProText;
+}
+
+.text-gold-main {
+  color: #c3936d;
+}
+
+#navbar {
+  background-color: #242424;
+  font-family: SFProText;
+}
+
+a.nav-link {
+  color: white;
+}
+
+a.nav-link:hover {
+  color: #c3936d;
+  cursor: pointer;
+}
+
+#first-row {
+  margin-top: 120px;
+}
+
+.title-header-container {
+  width: 50%;
+  margin: 0 auto 50px;
+  text-align: left;
+  display: block;
+  font-weight: bold;
+}
+
+.title-header-container a {
+  color: #707070;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.title-description-container {
+  width: 50%;
+  margin: 0 auto 50px;
+  text-align: left;
+  display: block;
+}
+
+.title-description-container h2 {
+  font-weight: bolder;
+}
+
+.img-container {
+  width: 100%;
+  height: 300px;
+  background: #d9d9d9;
+  margin: 30px 0;
+}
+
+button.wa-button {
+  border: none;
+  background-color: #c3936d;
+  color: white;
+  width: 160px;
+  padding: 11px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+div#section-footer {
+  margin: 0 0;
+  height: 35%;
+  background-color: #161616;
+  background-size: 100%;
+  background-position: center;
+}
+
+div#section-footer img#image-astronaut {
+  display: block;
+  width: 300px;
+  float: right;
+  position: absolute;
+  right: 5%;
+  bottom: 0;
+}
+
+#image-1 img {
+  width: 98%;
+  background: #d9d9d9;
+  margin: 30px 0;
+}
+
+#image-2 img {
+  width: 80%;
+  background: #d9d9d9;
+  margin: 30px 0;
+  margin-left: 10%;
+}
+
+#footer-bawah {
+  margin-top: 6rem !important;
+}
+
+.social-media-link {
+  margin: 0 20px;
+  width: 2%;
+}
+
+.social-media-link:first-child {
+  margin-left: 30px;
+}
+
+button.wa-button {
+  border: none;
+  background-color: #c3936d;
+  color: white;
+  width: 160px;
+  padding: 11px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+#wa-gambar {
+  width: 15%;
+}
+
+#contact-me {
+  display: inline;
+  color: white !important;
+  vertical-align: middle;
+}
+
+#yt-icon {
+  width: 2.5%;
+}
+
+@media only screen and (max-width: 595px) {
+  #yt-icon {
+    width: 8% !important;
+  }
+
+  .ms-auto {
+    margin-left: 35% !important;
+  }
+  .title-header-container {
+    width: 90%;
+    margin: 0 auto 90px;
+    text-align: left;
+    display: block;
+    font-weight: bold;
+  }
+
+  .title-header-container a {
+    color: #d9d9d9;
+    text-decoration: none;
+  }
+
+  .title-description-container {
+    width: 90%;
+    margin: 0 auto 50px;
+    text-align: left;
+    display: block;
+  }
+
+  .title-description-container h2 {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .title-description-container p {
+    text-align: justify;
+  }
+
+  .img-container {
+    width: 100%;
+    height: 140px;
+    background: #d9d9d9;
+    margin: 30px 0;
+  }
+
+  button.wa-button {
+    border: none;
+    background-color: #c3936d;
+    color: white;
+    width: 160px;
+    padding: 11px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  div#section-footer h2 {
+    font-size: 18px;
+  }
+
+  div#section-footer img#image-astronaut {
+    display: none;
+  }
+
+  #footer-bawah {
+    margin-top: 3rem !important;
+  }
+
+  .social-media-link {
+    margin: 0 1px;
+    width: 7%;
+  }
+}
